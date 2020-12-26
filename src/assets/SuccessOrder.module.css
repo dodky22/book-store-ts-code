@@ -1,0 +1,28 @@
+.successSection {
+  padding-top: 10vh;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.successSection h1,
+.successSection h2 {
+  margin: 0.5rem;
+}
+.successSection h2 {
+  margin-bottom: 2rem;
+}
+.successLink {
+  margin: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #f5a716;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+.successLink:hover {
+  background-color: #ce8c12;
+  color: white;
+}

@@ -1,0 +1,14 @@
+.link {
+  background-color: #f5a716;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.link:hover {
+  background-color: #ce8c12;
+  color: #fff;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.5s ease-in-out;
+}

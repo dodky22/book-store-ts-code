@@ -1,0 +1,22 @@
+.hero {
+  /* The image used */
+  background-image: url("../assets/images/title-books.PNG");
+
+  /* -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  z-index: 10; */
+
+  padding-top: 10vh;
+  /* Full height */
+  min-height: 70vh;
+
+  /* Center and scale the image nicely */
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}

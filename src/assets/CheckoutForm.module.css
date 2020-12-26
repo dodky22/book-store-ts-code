@@ -1,0 +1,367 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5vh;
+  padding-bottom: 1rem;
+  /* margin-bottom: 5vh; */
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.checkoutForm {
+  display: flex;
+  justify-content: space-around;
+}
+
+.formGroup {
+  margin: 0.5rem 1rem;
+}
+
+.myInputRed {
+  border: none;
+  background-color: rgb(255, 243, 209);
+  outline: none;
+  border-bottom: 1px solid red;
+  border-radius: 0;
+}
+
+.myInputGreen {
+  border: none;
+  background-color: rgb(255, 243, 209);
+  outline: none;
+  border-bottom: 1px solid green;
+  border-radius: 0;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clearfix {
+  clear: both;
+  margin: 0;
+}
+
+.myButton {
+  outline: none;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  margin: 0rem 1rem;
+  background-color: #f5a716;
+  transition: all 0.3s ease;
+}
+
+.myButton:hover {
+  cursor: pointer;
+  background-color: #ce8c12;
+}
+
+.myButton:disabled {
+  background-color: #fff;
+  cursor: not-allowed;
+}
+
+.steps {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.steps div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkIcon {
+  height: 2rem;
+  width: 2rem;
+  padding-bottom: 0.3rem;
+}
+
+.thisStep {
+  color: #f5a716;
+}
+
+.deliveryStep {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.deliveryOption {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  background-color: rgb(255, 243, 209);
+  outline: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  padding: 0.5rem 0;
+}
+
+.deliveryOption label {
+  padding-left: 1rem;
+}
+
+.deliveryCheckbox {
+  width: 1rem;
+  margin: 0 2rem;
+}
+
+.closeBtn {
+  width: 100%;
+  background-color: #f5a716;
+  color: white;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.closeBtn:hover {
+  cursor: pointer;
+  background-color: #ce8c12;
+  transform: scaleY(1.2);
+}
+
+input[type="checkbox"] {
+  border: 1px solid #000;
+  content: "\00a0";
+  display: inline-block;
+  font: sans-serif;
+  height: 16px;
+  margin: 0 0.5rem 0 1.5rem;
+  padding: 0;
+  vertical-align: top;
+  width: 16px;
+}
+
+input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.yourOrderTitle {
+  color: white;
+  margin: 0;
+  padding: 0.5rem 1rem;
+
+  border-bottom-style: solid;
+  border-width: 0.3rem;
+  border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+}
+
+.userDetailSummary {
+  margin-top: 1rem;
+  float: left;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.cartSummaryDetails {
+  float: right;
+  text-align: left;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.userDetailSummary tbody tr:nth-child(odd),
+.cartSummaryDetails tbody tr:nth-child(odd) {
+  background: #f0c880;
+}
+
+.userDetailSummary tbody tr:hover,
+.cartSummaryDetails tbody tr:hover {
+  background: #f0c98085;
+}
+
+.userDetailSummary td,
+.userDetailSummary th {
+  padding: 0.35rem 0.5rem;
+}
+
+.cartSummaryDetails td,
+.cartSummaryDetails th {
+  height: 1.3rem;
+  padding: 0.15rem 0.15rem 0.15rem 0.5rem;
+}
+
+.deliveryDetails {
+  display: flex;
+  justify-content: space-between;
+}
+.deliveryDetails div {
+  width: 30%;
+  height: 2.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0c880;
+  padding-left: 1rem;
+}
+
+.deliveryDetailsTitle {
+  margin: 0.5rem 0;
+  text-decoration: underline;
+}
+
+.deliveryPrice {
+  background-color: #f5a716;
+  padding: 0.5rem 1rem;
+
+  font-weight: 600;
+}
+
+.orderTotal {
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #000;
+  color: white;
+  padding: 0.5rem 3rem;
+  border-style: solid;
+  border-right-style: none;
+  border-width: 0.25rem;
+  border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.deliveryError {
+  margin: 0.5rem 1rem;
+  color: red;
+  border-bottom: 1px solid red;
+}
+.userdetailsError {
+  color: red;
+}
+.detailsTitle {
+  display: none;
+}
+
+.summaryContent {
+  padding: 0 1rem;
+}
+
+.deliveryContent {
+  padding: 0 0 1rem 1rem;
+}
+
+@media (max-width: 1400px) {
+  .userDetailSummary {
+    float: none;
+    width: 100%;
+    margin-top: 0;
+  }
+  .cartSummaryDetails {
+    float: none;
+    width: 100%;
+  }
+  .yourOrderTitle {
+    margin-bottom: 0;
+  }
+  .detailsTitle {
+    display: block;
+    text-decoration: underline;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+}
+
+@media (max-width: 910px) {
+  .checkoutForm {
+    display: block;
+    /* padding-right: 2rem; */
+  }
+  .myInputGreen,
+  .myInputRed {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .cartSummaryIsbn {
+    display: none;
+  }
+}
+
+@media (max-width: 710px) {
+  .cartSummaryAuthor {
+    display: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .deliveryDetails {
+    flex-direction: column;
+  }
+  .deliveryDetails div {
+    width: 96%;
+  }
+  .deliveryContent {
+    padding: 0 1rem 1rem 1rem;
+  }
+  .orderTotal {
+    margin-top: 0.5rem;
+    text-align: center;
+    border-right-style: solid;
+  }
+  .steps {
+    padding: 0.5rem 0;
+  }
+  .container {
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .checkIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .checkSpan {
+    font-size: 0.8rem;
+  }
+
+  .cartSummaryGenre {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .cartSummaryName {
+    display: none;
+  }
+}
+@media (max-width: 380px) {
+  .yourOrderTitle {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  .myButton {
+    padding: 0.5rem;
+  }
+  .deliveryDetails div {
+    font-size: 0.9rem;
+    width: 93%;
+  }
+  .cartSummaryDetails {
+    font-size: 0.9rem;
+  }
+  .userDetailSummary {
+    font-size: 0.9rem;
+  }
+}

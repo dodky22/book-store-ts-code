@@ -1,0 +1,96 @@
+.services {
+  background-color: #000;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.servicesItem {
+  display: flex;
+  align-items: center;
+}
+
+.servicesItem div {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.servicesItem div p {
+  margin: 0;
+}
+
+.icon {
+  height: 1.2rem;
+  width: 1.4rem;
+  padding: 0.7rem;
+  background-color: #f5a716;
+  border-radius: 1rem;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02rem;
+}
+
+@media (max-width: 1185px) {
+  .services {
+    width: 70%;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 1025px) {
+  .services {
+    padding: 0;
+    width: 50%;
+    display: block;
+  }
+  .servicesItem {
+    width: 60%;
+    margin: 1rem auto;
+  }
+}
+
+@media (max-width: 990px) {
+  .servicesItem div p {
+    display: none;
+  }
+  .servicesItem {
+    width: 70%;
+  }
+}
+
+@media (max-width: 850px) {
+  .servicesItem {
+    width: 80%;
+  }
+}
+
+@media (max-width: 740px) {
+  .servicesItem {
+    width: 90%;
+  }
+}
+@media (max-width: 670px) {
+  .servicesItem {
+    width: 100%;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .services {
+    display: none;
+  }
+}

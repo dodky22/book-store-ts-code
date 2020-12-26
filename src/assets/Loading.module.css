@@ -1,0 +1,16 @@
+.loading {
+  text-align: center;
+  padding-top: 10vh;
+  min-height: 60vh;
+  width: 50%;
+  margin: 3rem auto;
+}
+
+.loading h3 {
+  background-color: #000;
+  color: white;
+  padding: 0.5rem 0;
+  border-bottom-style: solid;
+  border-width: 0.5rem;
+  border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+}
